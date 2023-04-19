@@ -126,7 +126,7 @@ void enQueue(QueueType *cQ, element item){      // 큐 cQ에 원소 item을 삽�
 	}
 }
 
-/* complete the function */
+/* completed function */
 void deQueue(QueueType *cQ, element *item){       // 큐 cQ에서 원소 item을 삭제하는 함수
 	if(isEmpty(cQ)){                              // 큐 cQ가 비어 있는 경우
 		return;                                   // 함수 종료
